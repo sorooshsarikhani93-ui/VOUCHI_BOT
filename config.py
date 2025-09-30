@@ -1,9 +1,9 @@
 # تنظیمات پایه بات
-TELEGRAM_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
-ADMIN_ID = 123456789  # آیدی عددی تلگرام ادمین
+TELEGRAM_TOKEN = "8485850129:AAER_k_yGpycwoQfTp5VjjlMuKFtJmfpj34"
+ADMIN_ID = SoroushSS  # آیدی عددی تلگرام ادمین
 
 # کانال یا گروه لاگ (اختیاری)
 LOG_CHANNEL = None  # مثلا -100123456789
 
 # تنظیمات نرخ ارز
-USD_TO_RIAL = 126000  # نرخ فعلی دلار به تومان (قابل تغییر دستی)
+USD_TO_RIAL = 113480  # نرخ فعلی دلار به تومان (قابل تغییر دستی)
