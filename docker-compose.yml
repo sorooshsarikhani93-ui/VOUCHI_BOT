@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  bot:
+    build: .
+    command: python bot.py
+    environment:
+      - BOT_TOKEN
+      - ADMIN_ID
+      - SMS_PROVIDER
+      - SMS_API_KEY
+      - SMS_TEMPLATE_ID
+      - PAY_IR_API_KEY
+      - CALLBACK_HOST
+      - HMAC_SECRET
+      - USD_TO_RIAL
+    restart: unless-stopped
